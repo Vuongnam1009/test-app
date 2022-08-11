@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "PetLover",
+    "slug": "PetLover",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/Images/logo.png",
+    "splash": {
+      "image": "./assets/Images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Images/logo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "dev.timistudio.expo.petlover",
+      "versionCode": 3,
+      "permissions": [
+        "CAMERA",
+        "READ_CONTACTS"
+      ],
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-6106751649082059~1072669289",
+        "googleSignIn": {}
+      }
+    },
+    "web": {
+      "favicon": "./assets/Images/logo.png"
+    }
+  }
+}
